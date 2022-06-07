@@ -22,7 +22,8 @@ Complex :: ~Complex()
     Im = 0.0;
 }
 
-void Complex :: Set (double aRe, double aIm){
+void Complex :: Set (double aRe, double aIm)
+{
     Re = aRe;
     Im = aIm;
 }
@@ -31,7 +32,6 @@ Complex :: operator double()
 {
     return abs();
 }
-
     double Complex :: abs()
 {
     return sqrt(Re * Re + Im * Im);
