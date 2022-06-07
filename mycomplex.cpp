@@ -2,6 +2,7 @@
 #include <cmath>
 #include "mycomplex.h"
 
+
 using namespace std;
 
 Complex :: Complex(double aRe, double aIm)
